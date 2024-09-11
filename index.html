@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creando Y Modificando Objetos
+    </title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Pacientes</h1>
+        <div class="form-container">
+            <h2>Registrar Paciente</h2>
+            <form id="formularioPaciente">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" required>
+                
+                <label for="diagnostico">Diagnóstico:</label>
+                <input type="text" id="diagnostico" required>
+                
+                <button type="submit">Agregar Paciente</button>
+            </form>
+        </div>
+
+        <div class="search-container">
+            <h2>Buscar Paciente</h2>
+            <input type="text" id="buscarNombre" placeholder="Buscar por nombre...">
+            <button id="buscarPaciente">Buscar</button>
+        </div>
+
+        <div class="patients-container">
+            <h2>Lista de Pacientes</h2>
+            <ul id="listaPacientes"></ul>
+        </div>
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
