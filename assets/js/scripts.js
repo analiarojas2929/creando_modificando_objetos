@@ -19,7 +19,6 @@ class Paciente {
         return this._diagnostico;
     }
 
-    // Método para mostrar los datos del paciente
     mostrarDatos() {
         return `Nombre: ${this._nombre}, Edad: ${this._edad}, Diagnóstico: ${this._diagnostico}`;
     }
